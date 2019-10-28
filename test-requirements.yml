@@ -1,0 +1,6 @@
+---
+
+- src: geerlingguy.repo-epel
+- src: cloudalchemy.node-exporter
+- src: dinivas.consul
+- src: lnovara.mosquitto

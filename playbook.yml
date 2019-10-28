@@ -1,0 +1,9 @@
+---
+- name: Provision Image Dinivas Mosquitto to build
+  hosts: packer-dinivas-mosquitto
+  become: true
+  roles:
+    - role: lnovara.mosquitto
+      mosquitto_packages:
+        - mosquitto
+      mosquitto_python_packages: []
